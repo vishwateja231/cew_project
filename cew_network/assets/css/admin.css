@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+  }
+  
+  .admin-header {
+    background: #005bb5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .admin-header h1 {
+    margin: 0;
+  }
+  
+  .admin-header .btn {
+    padding: 0.5rem 1rem;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+  }
+  
